@@ -1,2 +1,5 @@
+.idea/**
+
+### Gradle ###
 .gradle
-.idea
+build/
