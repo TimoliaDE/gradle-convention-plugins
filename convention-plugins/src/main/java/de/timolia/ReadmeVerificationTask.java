@@ -1,5 +1,8 @@
-package com.example;
+package de.timolia;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.util.regex.Pattern;
 import org.gradle.api.DefaultTask;
 import org.gradle.api.file.RegularFileProperty;
 import org.gradle.api.provider.ListProperty;
@@ -8,10 +11,6 @@ import org.gradle.api.tasks.Internal;
 import org.gradle.api.tasks.PathSensitive;
 import org.gradle.api.tasks.PathSensitivity;
 import org.gradle.api.tasks.TaskAction;
-
-import java.io.IOException;
-import java.nio.file.Files;
-import java.util.regex.Pattern;
 
 /**
  * Verifies that the given readme file contains the desired patterns.

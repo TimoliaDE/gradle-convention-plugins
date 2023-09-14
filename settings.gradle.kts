@@ -1,3 +1,2 @@
-rootProject.name = "convention-plugins"
-
+rootProject.name = "GradleConventionPlugins"
 include("convention-plugins")

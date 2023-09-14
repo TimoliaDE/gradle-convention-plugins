@@ -18,7 +18,7 @@ repositories {
 // Use the Checkstyle rules provided by the convention plugin
 // Do not allow any warnings
 checkstyle {
-    config = resources.text.fromString(com.example.CheckstyleUtil.getCheckstyleConfig("/checkstyle.xml"))
+    config = resources.text.fromString(de.timolia.CheckstyleUtil.getCheckstyleConfig("/checkstyle.xml"))
     maxWarnings = 0
 }
 

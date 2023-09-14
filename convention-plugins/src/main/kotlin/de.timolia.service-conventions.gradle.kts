@@ -2,7 +2,7 @@
 // Service projects need to use the organization's Java conventions and pass some additional checks
 
 plugins {
-    id("com.myorg.java-conventions")
+    id("de.timolia.java-conventions")
 }
 
 val integrationTest by sourceSets.creating
@@ -22,7 +22,7 @@ dependencies {
 }
 
 // The organization requires additional documentation in the README for this project
-val readmeCheck by tasks.registering(com.example.ReadmeVerificationTask::class) {
+val readmeCheck by tasks.registering(de.timolia.ReadmeVerificationTask::class) {
     readme.set(layout.projectDirectory.file("README.md"))
     readmePatterns.set(listOf("^## Service API$"))
 }

@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.myorg.conventions"
+group = "de.timolia.conventions"
 version = "1.0"
 
 publishing {
