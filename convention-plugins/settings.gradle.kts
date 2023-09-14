@@ -1,1 +1,1 @@
-rootProject.name="my-org-conventions"
+rootProject.name="convention-plugins"
