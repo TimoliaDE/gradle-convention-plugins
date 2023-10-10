@@ -1,1 +1,1 @@
-rootProject.name = "convention-plugins"
+rootProject.name = "gradle-convention-plugins"
