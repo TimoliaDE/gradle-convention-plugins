@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "de.timolia.conventions"
-version = "1.4"
+version = "1.5"
 
 publishing {
     repositories {
