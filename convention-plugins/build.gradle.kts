@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "de.timolia.conventions"
-version = "1.2"
+version = "1.3"
 
 publishing {
     repositories {
@@ -24,15 +24,7 @@ publishing {
     }
 }
 
-tasks.publish {
-    dependsOn("check")
-}
-
 repositories {
     gradlePluginPortal() // so that external plugins can be resolved in dependencies section
 }
 
-dependencies {
-    implementation("com.github.spotbugs.snom:spotbugs-gradle-plugin:5.0.12")
-    testImplementation("junit:junit:4.13")
-}
