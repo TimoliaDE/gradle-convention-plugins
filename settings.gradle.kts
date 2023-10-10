@@ -1,1 +1,1 @@
-rootProject.name = "GradleConventionPlugins"
+rootProject.name = "convention-plugins"
